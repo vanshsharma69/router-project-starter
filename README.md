@@ -82,11 +82,11 @@ The app will be available at `http://localhost:3000`.
 
 ## 📸 Screenshots
 
-### 🔐 Sign Up Page
+### 🔐 Log in Page
 
 ![Log in](src/assets/Screenshot%202025-05-11%20162924.png)
 
-### 🔓 Sign In Page
+### 🔓 Sign Up Page
 
 ![Sign Up](src/assets/Screenshot%2025-05-11%162943.png)
 
