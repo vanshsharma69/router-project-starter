@@ -31,12 +31,8 @@ This project is a responsive and visually appealing authentication user interfac
 
 ## 🛠️ Tech Stack
 
-* **HTML5**
-* **CSS3**
-* **JavaScript**
-* **React.js** (if applicable)
-* **Tailwind CSS** (or custom CSS based on implementation)
-* (Optional) **Google OAuth Integration**
+* **React.js**
+* **Tailwind CSS** 
 
 ## 📁 Folder Structure
 
