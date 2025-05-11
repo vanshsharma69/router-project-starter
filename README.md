@@ -80,15 +80,13 @@ This project is a responsive and visually appealing authentication user interfac
 
 The app will be available at `http://localhost:3000`.
 
-## 📸 Screenshots
+## Screenshots
 
-### 🔐 Log in Page
+### Sign Up Page
+![Sign Up](src/assets/Screenshot%202025-05-11%20162943.png)
 
-![Log in](src/assets/Screenshot%202025-05-11%20162924.png)
-
-### 🔓 Sign Up Page
-
-![Sign Up](src/assets/Screenshot%2025-05-11%162943.png)
+### Log In Page
+![Log In](src/assets/Screenshot%202025-05-11%20162924.png)
 
 ## 📄 License
 
