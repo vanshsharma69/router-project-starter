@@ -88,7 +88,7 @@ The app will be available at `http://localhost:3000`.
 
 ### 🔓 Sign In Page
 
-![Sign Up](src\assets\Screenshot%2025-05-11%162943.png)
+![Sign Up](src/assets/Screenshot%2025-05-11%162943.png)
 
 ## 📄 License
 
