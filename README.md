@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# StudyNotion Auth UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a responsive and visually appealing authentication user interface for the **StudyNotion** platform, designed using modern web development practices. It includes both **Sign Up** and **Sign In** pages, providing users a seamless experience while joining or returning to the platform.
 
-## Available Scripts
+## ✨ Features
 
-In the project directory, you can run:
+* 🔐 **User Authentication UI**
 
-### `npm start`
+  * Signup form with:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    * User role selection (Student / Instructor)
+    * Input fields for name, email, password
+    * Password visibility toggle
+    * Google OAuth signup option
+  * Login form with:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    * Email and password input
+    * Password visibility toggle
+    * “Forgot Password” link
+    * Google OAuth sign-in option
+* 📱 **Responsive Design**
 
-### `npm test`
+  * Fully responsive layout suitable for all screen sizes
+* 🎨 **Modern Aesthetic**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  * Dark theme with accent colors
+  * Professional typography and form styling
+* 📷 **Visual Engagement**
 
-### `npm run build`
+  * Relevant image illustrations for visual appeal on both pages
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* **HTML5**
+* **CSS3**
+* **JavaScript**
+* **React.js** (if applicable)
+* **Tailwind CSS** (or custom CSS based on implementation)
+* (Optional) **Google OAuth Integration**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📁 Folder Structure
 
-### `npm run eject`
+```
+.
+├── assets/               # Static images and illustrations
+├── components/           # Reusable UI components
+├── pages/
+│   ├── Signup.jsx        # Signup Page
+│   └── Login.jsx         # Login Page
+├── App.js                # App routes
+└── index.html            # Entry point
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Node.js and npm installed
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Installation
 
-## Learn More
+1. Clone the repository:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   git clone https://github.com/yourusername/studynotion-auth-ui.git
+   cd studynotion-auth-ui
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Install dependencies:
 
-### Code Splitting
+   ```bash
+   npm install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. Run the app:
 
-### Analyzing the Bundle Size
+   ```bash
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The app will be available at `http://localhost:3000`.
 
-### Making a Progressive Web App
+## 📸 Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 🔐 Sign Up Page
 
-### Advanced Configuration
+![Log in](src\assets\Screenshot 2025-05-11 162924.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### 🔓 Sign In Page
 
-### Deployment
+![Sign Up](src\assets\Screenshot 2025-05-11 162943.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📄 License
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the [MIT License](LICENSE).

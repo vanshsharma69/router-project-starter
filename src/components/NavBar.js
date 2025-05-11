@@ -9,14 +9,14 @@ const NavBar=(props) =>{
     let isLoggedIn= props.isLoggedIn;
     let setIsLoggedIn=props.setIsLoggedIn;
     return(
-        <div className="flex justify-evenly ">
-           <Link to="/" ></Link>
+        <div className="flex justify-between w-9/12 max-w-[1160] py-4 mx-auto ">
+           <Link to="/" >
            <img src={logo} height={32} width={160} loading="lazy" ></img>
+           </Link>
 
            <nav>
-
             
-            <ul className="flex gap-3  ">
+            <ul className="text-slate-300 flex gap-x-6 py-1  ">
                 <li>
                     <Link to="/">Home</Link>
                 </li>
@@ -34,21 +34,21 @@ const NavBar=(props) =>{
            </nav>
 
 
-           <div className="flex ml-5 mr-3 gap-3">
+           <div className="flex items-center gap-x-4 ">
 
             {
                 !isLoggedIn &&
                 <Link to="/login">
-            <button>
-                Login
+            <button className="text-slate-300 bg-slate-900 px-[10px] py-[6px] rounded-[8px] border border-slate-800">
+                Log in
             </button>
             </Link>
             }
 
              {  !isLoggedIn &&
                 <Link to="/signup">
-            <button>
-                Sign Up
+            <button className="text-slate-300 bg-slate-900 px-[12px] py-[6px] rounded-[8px] border border-slate-800">
+                Sign up
             </button>
             </Link>
             }
@@ -58,7 +58,7 @@ const NavBar=(props) =>{
                     toast.success("Logged Out");
                 
                 }}>
-            <button>
+            <button className="text-slate-300 bg-slate-900 px-[12px] py-[6px] rounded-[8px] border border-slate-800">
                 Logout
             </button>
             </Link>
@@ -66,7 +66,7 @@ const NavBar=(props) =>{
 
              {  isLoggedIn &&
                 <Link to="/Dashboard">
-            <button>
+            <button className="text-slate-300 bg-slate-900 px-[12px] py-[6px] rounded-[8px] border border-slate-800">
                 Dashboard
             </button>
             </Link>
