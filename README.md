@@ -84,11 +84,11 @@ The app will be available at `http://localhost:3000`.
 
 ### 🔐 Sign Up Page
 
-![Log in](src\assets\Screenshot 2025-05-11 162924.png)
+![Log in](src/assets/Screenshot%202025-05-11%20162924.png)
 
 ### 🔓 Sign In Page
 
-![Sign Up](src\assets\Screenshot 2025-05-11 162943.png)
+![Sign Up](src\assets\Screenshot%2025-05-11%162943.png)
 
 ## 📄 License
 
